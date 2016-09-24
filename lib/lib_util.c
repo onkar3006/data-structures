@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "libutil.h"
+#include "lib_util.h"
 
 /* print utility */
 void print_array(int a[], int length)

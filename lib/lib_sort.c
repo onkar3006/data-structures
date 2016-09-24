@@ -1,5 +1,5 @@
-#include "libutil.h"
-#include "libsort.h"
+#include "lib_util.h"
+#include "lib_sort.h"
 
 /* bubble sort */
 void bubblesort (int a[], int length)

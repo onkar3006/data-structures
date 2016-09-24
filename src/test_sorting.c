@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "../lib/libutil.h"
-#include "../lib/libsort.h"
+#include "test_sorting.h"
 
-int main(int argc, char *argv[])
+void test_sorting()
 {
     int array[10] = {10,9,8,7,6,5,4,3,2,1};
     int length    = sizeof(array) / sizeof(int);
@@ -26,6 +25,4 @@ int main(int argc, char *argv[])
     printf("\nMerge sort     : ");
     print_array(array, length);
     printf("\n");
-
-    return 0;
 }
